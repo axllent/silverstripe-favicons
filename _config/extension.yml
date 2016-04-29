@@ -1,0 +1,6 @@
+---
+Name: Favicons
+---
+Page_Controller:
+  extensions:
+    - FaviconsExt

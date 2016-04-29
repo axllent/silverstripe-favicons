@@ -1,0 +1,23 @@
+{
+	"name": "axllent/silverstripe-favicons",
+	"description": "Simplistic templating for adding favicons for multiple devices",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/axllent/silverstripe-favicons",
+	"keywords": [
+		"silverstripe",
+		"favicon"
+	],
+	"license": "The MIT License (MIT)",
+	"authors": [
+		{
+			"name": "Ralph Slooten",
+			"homepage": "http://www.axllent.org/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/axllent/silverstripe-favicons/issues"
+	},
+	"require": {
+		"silverstripe/framework": "3.*"
+	}
+}
