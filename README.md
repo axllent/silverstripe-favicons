@@ -1,6 +1,6 @@
 # Silverstripe favicon template for multiple devices
 
-An extension to allow easy easy templating to add favicons for multiple devices.
+An extension to allow an easy templating system to add favicons for multiple devices.
 
 ## Requirements
 
