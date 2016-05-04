@@ -10,10 +10,10 @@ You can use other online sources, however due to the different file naming of th
 
 ## Usage
 
-Copy the generated icons to a path in your project (eg: `/icons/`). Then in the `<head>` of your `Page.ss`, add the following code:
+Copy the generated icons to a path in your project (eg: `/favicons/`). Then in the `<head>` of your `Page.ss`, add the following code:
 
 ```
-$Favicons("/icons/")
+$Favicons("/favicons/")
 ```
 
 The favicon template code is cached, so if you change your favicon path then you must do a `?flush`.
