@@ -1,6 +1,6 @@
 ---
 Name: Favicons
 ---
-Page_Controller:
+SilverStripe\CMS\Controllers\ContentController:
   extensions:
-    - FaviconsExt
+    - Axllent\Favicons\FaviconsExt

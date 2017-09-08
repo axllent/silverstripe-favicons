@@ -17,7 +17,12 @@
 	"support": {
 		"issues": "https://github.com/axllent/silverstripe-favicons/issues"
 	},
-	"require": {
-		"silverstripe/framework": "^3.0"
-	}
+    "require": {
+		"silverstripe/cms": "^4.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Axllent\\Favicons\\": "src/"
+        }
+    }
 }

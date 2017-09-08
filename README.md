@@ -10,19 +10,20 @@ You can use other online sources, however due to the different file naming of th
 
 ## Usage
 
-Copy the generated icons to a path in your project (eg: `/favicons/`). Then in the `<head>` of your `Page.ss`, add the following code:
+Copy the generated icons to a path in your project (eg: `favicons/`). Then in the `<head>` of your `Page.ss`, add the following code:
 
 ```
-$Favicons("/favicons/")
+$Favicons("favicons/")
 ```
 
 The favicon template code is cached, so if you change your favicon path then you must do a `?flush`.
 
 ## Requirements
 
-- SilverStripe 3+
+- SilverStripe 4+
 
-## Notes
+## Installation
 
-1. Depending on what source you use to generate your icons, the naming may be different to to the default `Favicons.ss` template. You can either rename your icons, or alternatively create your own `Favicons.ss` template in `themes/<site>/templates/`.
-2. The `manifest.json` has been intentionally excluded. If you require this, see #1.
+```shell
+composer require axllent/silverstripe-favicons
+```
