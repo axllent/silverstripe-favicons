@@ -1,7 +1,7 @@
 {
 	"name": "axllent/silverstripe-favicons",
 	"description": "Simplistic templating for adding favicons for multiple devices",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/axllent/silverstripe-favicons",
 	"keywords": [
 		"silverstripe",
