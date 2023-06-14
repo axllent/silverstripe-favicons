@@ -12,7 +12,15 @@ use SilverStripe\ORM\DataExtension;
  */
 class FaviconsExt extends DataExtension
 {
-    public function Favicons($path = false, $theme = '#ffffff')
+    /**
+     * Favicon returns the rendered HTML code
+     *
+     * @param mixed  $path relative path
+     * @param string $theme Hex theme color
+     *
+     * @return string
+     */
+    public function favicons($path = false, $theme = '#ffffff')
     {
         $path = preg_replace('/\/+/', '/', Director::baseURL() . $path . '/');
         return $this->owner->customise(

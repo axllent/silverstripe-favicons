@@ -10,7 +10,7 @@ You can use other online sources, however due to the different file naming of th
 
 ## Usage
 
-Copy the generated icons to a path in your project (eg: `favicons/`). Then in the `<head>` of your `Page.ss`, add the following code:
+Copy the generated icons to a path in your project's public folder (eg: `favicons/`). Then in the `<head>` of your `Page.ss`, add the following code:
 
 ```
 $Favicons("favicons/")
@@ -20,7 +20,7 @@ The favicon template code is cached, so if you change your favicon path then you
 
 ## Requirements
 
-- SilverStripe 4+
+- SilverStripe ^4 || ^5
 
 ## Installation
 
