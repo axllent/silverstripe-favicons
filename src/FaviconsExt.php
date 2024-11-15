@@ -3,19 +3,19 @@
 namespace Axllent\Favicons;
 
 use SilverStripe\Control\Director;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 
 /**
  * FaviconsExt extends ContentController
  * Generate code in the head of Page.ss
  * with `$Favicons("path-to-icons")`
  */
-class FaviconsExt extends DataExtension
+class FaviconsExt extends Extension
 {
     /**
      * Favicon returns the rendered HTML code
      *
-     * @param mixed  $path relative path
+     * @param mixed  $path  relative path
      * @param string $theme Hex theme color
      *
      * @return string
@@ -23,11 +23,12 @@ class FaviconsExt extends DataExtension
     public function favicons($path = false, $theme = '#ffffff')
     {
         $path = preg_replace('/\/+/', '/', Director::baseURL() . $path . '/');
+
         return $this->owner->customise(
-            array(
-                'Path' => $path,
-                'Theme' => $theme
-            )
+            [
+                'Path'  => $path,
+                'Theme' => $theme,
+            ]
         )->renderWith('Favicons');
     }
 }
