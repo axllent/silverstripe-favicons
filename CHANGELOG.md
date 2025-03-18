@@ -2,6 +2,11 @@
 
 Notable changes to this project will be documented in this file.
 
+## [2.0.4]
+
+- Replace default colour `#ffffff` with `$Theme` in template
+
+
 ## [2.0.3]
 
 - Replace deprecated DataExtension with Extension
