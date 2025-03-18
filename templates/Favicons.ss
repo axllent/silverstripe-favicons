@@ -13,7 +13,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="{$Path}favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="{$Path}favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="{$Path}favicon-16x16.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileColor" content="$Theme">
 	<meta name="msapplication-TileImage" content="{$Path}ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="$Theme">
 <% end_cached %>
